@@ -1,0 +1,61 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(231, 231, 189);
+}
+
+.cotainer-slide{
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.itens{
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: white;
+    font-size: 2rem;
+    z-index: 1;
+    position: absolute;
+    user-select: none;
+}
+
+.b2{
+    left: calc(75vw - 50px);
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+.slyde{
+    width: 50vw;
+    height: 50vh;
+    transition: 1s;
+}
+
+.slyde img{
+    width: 50vw;
+    height: 50vh;
+}
+
+.slyde:first-child{
+    margin-left: -100%;
+}
